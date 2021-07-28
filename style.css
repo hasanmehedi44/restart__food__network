@@ -13,7 +13,7 @@
     padding-bottom: 40px;
 }
 
-.skip__section img {
+img {
     width: 100%;
 }
 
@@ -28,7 +28,7 @@
 .skip__content p {
     margin-top: 80px;
     font-size: 25px;
-    margin-bottom: 38px;
+    
 }
 
 .button {
@@ -38,11 +38,29 @@
     padding: 10px 30px;
     border-radius: 5px;
     margin: 30px 0px;
+    display: inline-block;
+    margin-top: 38px;
 }
 
 .skip__content h1 {
     font-size: 57px;
 }
+
 .color__orange {
     color: rgb(211, 63, 63);
+}
+
+.about__me {
+    background: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.about__me  img {
+    width: 50%;
+    margin: 40px 0px;
 }
