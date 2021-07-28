@@ -176,3 +176,44 @@ footer{
 footer h1 {
     margin: 36px 0px;
 }
+
+.mobile__app {
+    display: flex;
+    background: linear-gradient(rgb(228, 182, 55), rgb(167, 45, 45));
+    padding: 98px 0px
+}
+
+.mobile__app .download__button,
+.mobile__app .app__image {
+    text-align: center;
+}
+
+.mobile__app .app__image {
+    padding: 20px;
+    border-radius: 20px;
+}
+.app__image img {
+    border-radius: 20px;
+}
+
+.download__button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.download__button h1 {
+    font-size: 30px;
+    color: rgb(248, 227, 227);
+    margin-bottom: 30px;
+}
+
+.download__button p {
+    font-size: 20px;
+    color: aliceblue;
+}
+.app__store, 
+.play__store {
+    padding: 10px 30px;
+    margin: 71px 10px;
+    background: linear-gradient(rgb(141, 245, 238), cyan);
+    border: none;
+}
